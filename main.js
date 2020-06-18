@@ -1,11 +1,8 @@
-var age = 32;
+var ary = [2,4,6,8,10];
+var sum = 0;
 
-if (age >= 10 && age < 20){
-  console.log("10代");
-} else if (age >= 20 && age < 30){
-  console.log("20代");
-} else if (age >= 30 && age < 40){
-  console.log("30代");
-} else {
-  console.log("それ以外");
+for (let i = 0; i < 5; i++){
+  sum += ary[i];
 }
+
+console.log(sum);
