@@ -1,9 +1,11 @@
-var num = 1;
-var num01 = 2;
+var age = 32;
 
-var bool;
-
-bool = (num < num01);
-
-console.log(bool);
-console.log(typeof(bool));
+if (age >= 10 && age < 20){
+  console.log("10代");
+} else if (age >= 20 && age < 30){
+  console.log("20代");
+} else if (age >= 30 && age < 40){
+  console.log("30代");
+} else {
+  console.log("それ以外");
+}
